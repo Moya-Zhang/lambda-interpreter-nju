@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83ff7f1f-1f0f-47e4-8fd8-f1d5ea3132ee" name="Default Changelist" comment="1">
+      <change beforePath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Identifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Lexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Parser.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/305-lambda-interpreter/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="266">
+                <caret line="14" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1330">
+              <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="133" column="48" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/test/java/cn/seecoder/InterpreterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Lexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1504#1505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Abstraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Identifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>next</find>
+      <find>parser</find>
+      <find>application</find>
+      <find>shift</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/test/java/cn/seecoder/InterpreterTest.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/TokenType.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/AST.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Application.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Abstraction.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Lexer.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Parser.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Identifier.java" />
+        <option value="$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="598" />
+    <option name="y" value="80" />
+    <option name="width" value="1440" />
+    <option name="height" value="1160" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seecoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LambdaInterpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="305-lambda-interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="seecoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561029326903" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab12-0521" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Interpreter">
+    <configuration name="Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.seecoder.Interpreter" />
+      <module name="LambdaInterpreter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.seecoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.seecoder.Lexer" />
+      <module name="LambdaInterpreter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.seecoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.seecoder.Parser" />
+      <module name="LambdaInterpreter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.seecoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterpreterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaInterpreter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.seecoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.seecoder" />
+      <option name="MAIN_CLASS_NAME" value="cn.seecoder.InterpreterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Interpreter" />
+        <item itemvalue="JUnit.InterpreterTest" />
+        <item itemvalue="Application.Parser" />
+        <item itemvalue="Application.Lexer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83ff7f1f-1f0f-47e4-8fd8-f1d5ea3132ee" name="Default Changelist" comment="" />
+      <created>1558930718526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558930718526</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1560011299398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560011299398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1560013350628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560013350628</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1560058112346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560058112346</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1560058568543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560058568543</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1560060573666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560060573666</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1560062002108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560062002108</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1560063611097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560063611097</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <created>1560069629615</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560069629616</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1">
+      <created>1560069978236</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560069978236</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1560070075183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560070075183</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1560070277151</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560070277151</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1">
+      <created>1560249815554</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560249815554</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="InterpreterTest - 2019.06.20 at 16h 07m 43s.xml">
+      <configuration name="InterpreterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterpreterTest - 2019.06.20 at 16h 08m 08s.xml">
+      <configuration name="InterpreterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterpreterTest - 2019.06.20 at 19h 09m 04s.xml">
+      <configuration name="InterpreterTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17651822" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.053380784" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15836298" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/AST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/TokenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="266">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/test/java/cn/seecoder/InterpreterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Abstraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Identifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/305-lambda-interpreter/src/main/java/cn/seecoder/Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="133" column="48" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
